@@ -2,10 +2,8 @@
 
 This repo is meant to serve as a collection of tools that I have come across and wish to keep track of for development. I plan on categorizing them based on language/domain of development.
 
-___
 ## Cloud Services
 
-___
 ## Design
 
 ### Balsamiq mockups
@@ -32,20 +30,15 @@ ___
 - Cost: free
 - [type-scale.com](http://type-scale.com/)
 
-___
+
 ## Development Tools
 
-___
 ## Java
 
-___
 ## JavaScript
 
-___
 ## Learning Resources
 
-___
 ## Machine Learning
 
-___
 ## Python
