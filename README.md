@@ -24,6 +24,7 @@ This repo is meant to serve as a collection of tools that I have come across and
   - [Nodemon](#nodemon)
 - [Learning Resources](#learning-resources)
   - [A Cloud Guru](#a-cloud-guru)
+  - [Shopify Slate](#shopify-slate)
   - [Team Treehouse](#team-treehouse)
 - [Machine Learning](#machine-learning)
   - [Nexosis](#nexosis)
@@ -114,6 +115,12 @@ This repo is meant to serve as a collection of tools that I have come across and
 - Best resource for all things cloud. Great videos!
 - Cost: Per certification ~$30
 - [acloud.guru](https://acloud.guru)
+
+### Shopify Slate
+
+- Slate is a theme template and CLI tool for custom Shopify themes. Included is a video tutorial on setting it up with a local dev environment.
+- Cost: Free
+- [Slate](https://www.npmjs.com/package/@shopify/slate), [video](https://www.youtube.com/watch?v=36Rfv_TeQRY)
 
 ### Team Treehouse
 
