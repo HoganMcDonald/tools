@@ -122,4 +122,10 @@ This repo is meant to serve as a collection of tools that I have come across and
 
 ## Machine Learning
 
+### Nexosis
+
+- A web api machine learning tool. I used it in the 2017 TCSW Hackathon.
+- Cost: depends on use. prepaid API.
+- [nexosis.com](https://nexosis.com/)
+
 ## Python
