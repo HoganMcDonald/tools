@@ -2,6 +2,34 @@
 
 This repo is meant to serve as a collection of tools that I have come across and wish to keep track of for development. I plan on categorizing them based on language/domain of development.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Cloud Services](#cloud-services)
+- [Design](#design)
+  - [Aspectrat.io](#aspectratio)
+  - [Balsamiq mockups](#balsamiq-mockups)
+  - [Basehold.it](#baseholdit)
+  - [Brandmark.io](#brandmarkio)
+  - [Cool Hue](#cool-hue)
+  - [Sketch](#sketch)
+  - [Type Scale](#type-scale)
+  - [Webflow](#webflow)
+- [Development Tools](#development-tools)
+  - [DocTOC](#doctoc)
+- [Java](#java)
+- [JavaScript](#javascript)
+  - [Node-gitignore](#node-gitignore)
+  - [Nodemon](#nodemon)
+- [Learning Resources](#learning-resources)
+  - [A Cloud Guru](#a-cloud-guru)
+  - [Team Treehouse](#team-treehouse)
+- [Machine Learning](#machine-learning)
+- [Python](#python)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Cloud Services
 
 ## Design
@@ -55,6 +83,12 @@ This repo is meant to serve as a collection of tools that I have come across and
 - [webflow.com](https://webflow.com/)
 
 ## Development Tools
+
+### DocTOC
+
+- generates a table of contents for a readme using cli.
+- Cost: Free
+- [npm](https://github.com/thlorenz/doctoc/blob/master/README.md)
 
 ## Java
 
