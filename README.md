@@ -26,6 +26,7 @@ This repo is meant to serve as a collection of tools that I have come across and
   - [A Cloud Guru](#a-cloud-guru)
   - [Team Treehouse](#team-treehouse)
 - [Machine Learning](#machine-learning)
+  - [Nexosis](#nexosis)
 - [Python](#python)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
