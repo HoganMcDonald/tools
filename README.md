@@ -66,6 +66,13 @@ This repo is meant to serve as a collection of tools that I have come across and
 - Cost: free
 - [coolhue](https://webkul.github.io/coolhue/)
 
+### Coolors
+
+- Generate color schemes.
+- Cost: Free
+- [coolors.co](https://coolors.co)
+
+
 ### Sketch
 
 - Adobe like tool for designing layouts. Probably best tool on the market.
