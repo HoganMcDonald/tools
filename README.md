@@ -6,6 +6,8 @@ This repo is meant to serve as a collection of tools that I have come across and
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [gulpfile](#gulpfile)
+  - [Required File Structure](#required-file-structure)
 - [Cloud Services](#cloud-services)
 - [Design](#design)
   - [Aspectrat.io](#aspectratio)
@@ -13,6 +15,7 @@ This repo is meant to serve as a collection of tools that I have come across and
   - [Basehold.it](#baseholdit)
   - [Brandmark.io](#brandmarkio)
   - [Cool Hue](#cool-hue)
+  - [Coolors](#coolors)
   - [Sketch](#sketch)
   - [Type Scale](#type-scale)
   - [Webflow](#webflow)
@@ -20,6 +23,7 @@ This repo is meant to serve as a collection of tools that I have come across and
   - [DocTOC](#doctoc)
 - [Java](#java)
 - [JavaScript](#javascript)
+  - [gulpfile-install](#gulpfile-install)
   - [Node-gitignore](#node-gitignore)
   - [Nodemon](#nodemon)
 - [Learning Resources](#learning-resources)
@@ -31,6 +35,34 @@ This repo is meant to serve as a collection of tools that I have come across and
 - [Python](#python)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## gulpfile
+
+the included gulpfile can be used to start a node app.
+
+### Required File Structure
+
+- modules
+- {src directory}
+  - assets
+  - fonts
+  - sass
+  - scripts
+  - vendors
+  - views
+- server.js
+
+server.js must run an express server at port 3000 that serves from a {dist directory}/views/index.min.html
+
+for single page website, reuse this server:
+``const express = require('express');
+const app = express();
+const path = require('path');
+app.use(express.static('public'));
+app.get('/', (req, res)=> {
+  res.sendFile(path.resolve('public/views/index.min.html'));
+})
+app.listen(3000);``
 
 ## Cloud Services
 
@@ -103,6 +135,12 @@ This repo is meant to serve as a collection of tools that I have come across and
 
 ## JavaScript
 
+### gulpfile-install
+
+- will install all the dependencies in a gulpfile
+- Cost: Free
+- [npm](https://www.npmjs.com/package/gulpfile-install)
+
 ### Node-gitignore
 
 - global npm package that will create github node boilerplate in a directory.
@@ -111,7 +149,7 @@ This repo is meant to serve as a collection of tools that I have come across and
 
 ### Nodemon
 
-- will automatically restart server when it detects changes. Global npm package.
+- will automatically restart server when it detects changes. Global npm package/gulp dependency.
 - Cost: Free
 - [nodemon.io](https://nodemon.io/)
 
