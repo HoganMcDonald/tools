@@ -52,17 +52,11 @@ the included gulpfile can be used to start a node app.
   - views
 - server.js
 
-server.js must run an express server at port 3000 that serves from a {dist directory}/views/index.min.html
+### commands
 
-for single page website, reuse this server:
-``const express = require('express');
-const app = express();
-const path = require('path');
-app.use(express.static('public'));
-app.get('/', (req, res)=> {
-  res.sendFile(path.resolve('public/views/index.min.html'));
-})
-app.listen(3000);``
+- `gulp`: will build all source files and launch browsersync/nodemon in default browser.
+- `gulp build`: will compile and build the files for distribution.
+- `gulp watch:{task}`: there are watch tasks set up for styles, scripts, vendors, fonts, html, images.
 
 ## Cloud Services
 
