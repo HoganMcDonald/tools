@@ -8,7 +8,6 @@ const srcDir = 'src'; // path from ./ where you write code (src)
 const destDir = 'public'; // final location from ./ where distribution files will go
 
 const scriptOrder = ['src/scripts/**/*.js'];
-const htmlOrder = ['src/views/**/*.html'];
 const styleOrder = ['src/sass/main.sass'];
 const vendorOrder = ['src/vendors/*.js'];
 
@@ -52,16 +51,20 @@ gulp.task('clean:build', ()=>{
   return del(destDir);
 });
 
-gulp.task('fonts', ()=> {
-  gulp.src(`${srcDir}/fonts/*`)
-    .pipe(gulp.dest(`${destDir}/fonts`))
+gulp.task('clean:fonts', ()=> {
+  return del(`${destDir}/assets/fonts`);
+});
+
+gulp.task('fonts', ['clean:fonts'], ()=> {
+  gulp.src('src/assets/fonts/*')
+    .pipe(gulp.dest(`${destDir}/assets/fonts`))
     .pipe(browserSync.reload({
       stream: true
     }));
 });
 
 gulp.task('html', ()=> {
-  gulp.src(htmlOrder)
+  gulp.src(`${srcDir}/views/**/*.html`)
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(rename({
       suffix: '.min'
