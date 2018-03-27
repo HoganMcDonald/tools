@@ -1,0 +1,21 @@
+'.platform-darwin atom-workspace':
+  'shift-cmd-K': 'color-picker:open'
+
+'atom-text-editor:not([mini])':
+  'shift-cmd-L': 'sort-lines:sort'
+
+'atom-text-editor, markdown-preview-plus-view':
+  'shift-cmd-M': 'markdown-preview-plus:toggle'
+
+'.platform-darwin atom-workspace atom-text-editor':
+  'shift-cmd-O': 'open-in-browser:open'
+
+'.workspace':
+  'shift-cmd-J': 'github:toggle-git-tab'
+  'shift-cmd-P': 'github:push'
+
+'atom-workspace':
+  'shift-cmd-H': 'open-on-github:repository'
+
+'.platform-darwin atom-workspace atom-text-editor:not(.mini)':
+  'ctrl-shift-0': 'atom-minify:minify-to-min-file'
