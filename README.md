@@ -8,31 +8,33 @@ This repo is meant to serve as a collection of tools that I have come across and
 
 - [gulpfile](#gulpfile)
   - [Required File Structure](#required-file-structure)
+  - [commands](#commands)
 - [Cloud Services](#cloud-services)
+  - [A Cloud Guru](#a-cloud-guru)
 - [Design](#design)
   - [Aspectrat.io](#aspectratio)
-  - [Balsamiq mockups](#balsamiq-mockups)
   - [Basehold.it](#baseholdit)
-  - [Brandmark.io](#brandmarkio)
   - [Cool Hue](#cool-hue)
   - [Coolors](#coolors)
-  - [Sketch](#sketch)
   - [Type Scale](#type-scale)
-  - [Webflow](#webflow)
 - [Development Tools](#development-tools)
   - [DocTOC](#doctoc)
 - [Java](#java)
+  - [Core Java](#core-java)
 - [JavaScript](#javascript)
   - [gulpfile-install](#gulpfile-install)
   - [Node-gitignore](#node-gitignore)
   - [Nodemon](#nodemon)
 - [Learning Resources](#learning-resources)
-  - [A Cloud Guru](#a-cloud-guru)
+  - [A Cloud Guru](#a-cloud-guru-1)
   - [Shopify Slate](#shopify-slate)
   - [Team Treehouse](#team-treehouse)
 - [Machine Learning](#machine-learning)
   - [Nexosis](#nexosis)
-- [Python](#python)
+- [Ruby](#ruby)
+  - [The Rails Tutorial](#the-rails-tutorial)
+- [Swift](#swift)
+  - [Hacking with Swift](#hacking-with-swift)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -59,6 +61,12 @@ the included gulpfile can be used to start a node app.
 - `gulp watch:{task}`: there are watch tasks set up for styles, scripts, vendors, fonts, html, images.
 
 ## Cloud Services
+
+### A Cloud Guru
+
+- the best colection of courses for learning AWS, google cloud, azure, etc.
+- Cost: ~$30
+- [Acloud.guru](https://acloud.guru)
 
 ## Design
 
@@ -101,6 +109,12 @@ the included gulpfile can be used to start a node app.
 - [npm](https://github.com/thlorenz/doctoc/blob/master/README.md)
 
 ## Java
+
+### Core Java
+
+- The best book... has a ton of small projects. Doesn't cover modern frameworks, but good intro to language and oop.
+- Cost: $50
+- [Amazon](https://www.amazon.com/Core-Java-I-Fundamentals-11th-Horstmann/dp/0135166306)
 
 ## JavaScript
 
@@ -150,4 +164,18 @@ the included gulpfile can be used to start a node app.
 - Cost: depends on use. prepaid API.
 - [nexosis.com](https://nexosis.com/)
 
-## Python
+## Ruby
+
+### The Rails Tutorial
+
+- a great online resource for learning rails and ruby.
+- Cost: Free
+- [The Rails Tutorial](https://www.railstutorial.org/)
+
+## Swift
+
+### Hacking with Swift
+
+- great resource. Easy to follow, 40 total portfolio projects.
+- Cost: Free
+- [Hacking with Swift](https://www.hackingwithswift.com/)
