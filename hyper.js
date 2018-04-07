@@ -8,7 +8,7 @@ https://github.com/bnb/awesome-hyper
 
 //['magikarp', 'gengar', 'alakazam', 'gyarados', 'missingno', 'dragonite']
 const pokemon = 'magikarp';
-const plugins = ['hyperemoji', 'hyperterm-lastpass', 'hypercwd', 'hyper-quit', 'hyperborder', 'hyperterm-tabs', 'hyper-tab-icons'];
+const plugins = ['hyper-halcyon-theme', 'hyperemoji', 'hyperterm-lastpass', 'hypercwd', 'hyper-quit', 'hyperterm-tabs'];
 
 module.exports = {
   config: {
